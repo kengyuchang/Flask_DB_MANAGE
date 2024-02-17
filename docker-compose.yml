@@ -1,0 +1,21 @@
+version: '3.8'
+services:
+  web:
+    build: .
+    ports:
+      - "5000:5000"
+    environment:
+      - DATABASE_URL=mssql://sa:kengyu900342@db:1433/YourDatabase
+    depends_on:
+      - db
+
+  db:
+    image: mcr.microsoft.com/mssql/server:2019-latest
+    environment:
+      SA_PASSWORD: kengyu900342
+      ACCEPT_EULA: "Y"
+    volumes:
+      - /Users/kengyu/Documents/docker_volum_data/mssql-data:/var/opt/mssql
+    ports:
+      - "1433:1433"
+    restart: always

@@ -1,0 +1,156 @@
+/** { margin:0; padding:0; }*/
+body { font-family:'Microsoft JhengHei'; font-size:16px; }
+.topic { margin:20px; font-size:16px; }
+.Pzone01 { margin:0 auto; }
+.Pzone01 .pj1 { margin:15px auto; height:50px; background-color:skyblue; line-height:50px; font-size:1.2em; text-align:center; }
+.Pzone01 .pj2 { margin:15px auto; height:50px; background-color:skyblue; line-height:50px; font-size:1.2em; text-align:center; }
+.Pzone01 .pj3 { margin:15px auto; height:50px; background-color:skyblue; line-height:50px; font-size:1.2em; text-align:center; }
+
+.Pzone01 .pj1_num { display:flex; flex-wrap:wrap; }
+.Pzone01 .pj1_num h4 { width:80px; text-align:left; margin:7px 12px; padding:10px; }
+.Pzone01 .pj1_num select { width:150px; margin:10px; padding:10px; }
+.Pzone01 .pj1_num input { width:250px; margin:10px; padding:10px; }
+.Pzone01 .pj1_num button { width:100px; margin:10px; padding:10px; }
+.Pzone01 .pj1_num .pjtemp { width:200px; margin:10px; padding:10px; background-color:#E6E8E6; text-align:center; }
+
+.Pzone01 .pj1_person { display:flex; flex-wrap:wrap;  }
+.Pzone01 .pj1_person h4 { width:83px; text-align:left; margin:7px 12px; padding:10px; }
+.Pzone01 .pj1_person select { width:150px; padding:10px; margin:7px 10px; }
+
+.Pzone01 .pj1_time { display:flex; flex-wrap:wrap;  }
+.Pzone01 .pj1_time h4 { width:80px; text-align:left; margin:7px 12px; padding:10px; }
+.Pzone01 .pj1_time input { width:126px; margin:10px; padding:10px; }
+.Pzone01 .pj1_time .timetemp { width:300px; margin:10px; padding:10px; background-color:#E6E8E6; text-align:center; }
+
+.Pzone01 .pj1_ta { display:flex; flex-wrap:wrap; }
+.Pzone01 .pj1_ta h4 { width:80px; text-align:left; margin:7px 12px; padding:10px; }
+.Pzone01 .pj1_ta textarea { width:850px; padding:5px; margin:7px 10px; overflow:hidden; }
+
+.Pzone01 .pj2_title { display:flex; flex-wrap:wrap; }
+.Pzone01 .pj2_title h4 { width:80px; text-align:left; margin:7px 12px; padding:10px; }
+.Pzone01 .pj2_title input { width:850px; padding:5px; margin:7px 10px; }
+
+.Pzone01 .pj2_content { display:flex; flex-wrap:wrap; }
+.Pzone01 .pj2_content h4 { width:80px; text-align:left; margin:7px 12px; padding:10px; }
+.Pzone01 .pj2_content input { width:850px; padding:5px; margin:7px 10px; }
+
+.Pzone01 .pj2_url { display:flex; flex-wrap:wrap; }
+.Pzone01 .pj2_url h4 { width:80px; text-align:left; margin:7px 12px; padding:10px; }
+.Pzone01 .pj2_url input { width:850px; padding:5px; margin:7px 10px; }
+
+.Pzone01 .pj2_type { display:flex; flex-wrap:wrap; }
+.Pzone01 .pj2_type h4 { width:80px; text-align:left; margin:7px 12px; padding:10px; }
+.Pzone01 .pj2_type select { width:150px; margin:10px; padding:10px; }
+
+.Pzone01 .pj3_app { display:flex; flex-wrap:wrap; }
+.Pzone01 .pj3_app h4 { width:80px; text-align:left; margin:7px 12px; padding:10px; }
+.Pzone01 .pj3_app .option{ display:flex; flex-wrap:no-wrap; padding-left:9px; letter-spacing:5px; }
+.Pzone01 .pj3_app .option > div { margin:1px; padding:13px; letter-spacing:1px; }
+
+.Pzone01 .pj3_setting { display:flex; flex-wrap:wrap; }
+.Pzone01 .pj3_setting h4 { width:80px; margin:7px 12px; padding:10px; }
+.Pzone01 .pj3_setting .ynoption { display:flex; flex-wrap:no-wrap; padding-left:9px; margin-top:10px; }
+.Pzone01 .pj3_setting .ynoption .yn { padding:10px; height:auto;  }
+
+div .acod {
+	display: none;
+}
+div .pane {
+	position: relative;
+	display: none;
+}
+
+.ctvTitle {
+	background-color: #cfe9ff;
+	color: #26598c;
+	font-weight: bolder;
+	border-style: solid;
+	border-width: 1px;
+	border-color:  #687480;
+}
+
+table.ctv {
+	border-collapse: collapse;
+}
+
+table.ctv th {
+	background-color: #cfe9ff;
+	color: #26598c;
+	font-weight: bolder;
+	border-style: solid;
+	border-width: 1px;
+	border-color:  #687480;
+}
+
+table.ctv td {
+	border-style: solid;
+	border-width: 1px;
+	border-color:  #687480;
+}
+
+td.ctv {
+	background-color: #cfe9ff;
+	color: #26598c;
+	font-weight: bolder;
+}
+
+table.ctv .query {
+	background-color: #f5f5f5;
+	border-style: none;
+}
+
+table.ctv .hoverRow {
+	background-color: #d1e5f5;
+	}
+
+table.ctv .selectedRow {
+	background-color: #fbec88;
+}
+
+.btnFixed {
+	width:125px;
+	background-color: white;
+	/*height:20px;
+	font-size:12px;*/
+}
+
+.bthFreeWidth {
+	/*width:250px;*/
+	background-color: white;
+	/*height:20px;
+	font-size:12px;*/
+}
+
+div.mFramL {
+    width:  990px;
+    height: 480px;
+}
+
+div.bFramL {
+    width:  990px;
+    height: 60px;
+}
+
+div.mFramS {
+    width:  700px;
+    height: 480px;
+}
+
+div.bFramS {
+    width:  700px;
+    height: 60px;
+}
+
+div.sFramL {
+	width: 990px;
+	height: 30px;
+}
+
+div.sFramS {
+	width: 700px;
+	height: 30px;
+}
+div.framView {
+	border: 3px coral solid;
+}
+}
